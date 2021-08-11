@@ -1,0 +1,108 @@
+/* 
+    Created on : Jun 3, 2021, 1:28:52 AM
+    Author     : Binary Beats
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;   
+    font-family: sans-serif;
+    color:whitesmoke;    
+}
+
+body{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("images/bg.jpg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+h1{
+    padding-top: 90px;
+    padding-left: 400px;
+    padding-bottom: 30px;
+    color:whitesmoke;
+    font-size:60px;                
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.wrapper{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:800px;
+    display:flex;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    
+        
+   
+}
+
+.wrapper .left{
+    width:35%;        
+    padding: 30px 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color:#fff;    
+}
+
+.wrapper .left img{
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+
+.wrapper.left h4{
+    margin-bottom: 10px;
+}
+
+.wrapper.right{
+    width:65%;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:30px 25px;
+    color:#009688;
+    
+}
+
+.wrapper.right.info,
+.wrapper.right.projects{
+    margin-bottom:25px;
+    
+    
+}
+
+
+
+.wrapper.right.info_data,
+.wrapper.right.projects_data{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.wrapper.right.info_data .data,
+.wrapper.right.projects_data .data{
+    width: 45%;
+}
+
+.wrapper.right.info_data.data h4,
+.wrapper.right.projects_data.data h4{
+ color:#353c4e;
+ margin-bottom: 5px;
+ 
+}
+
+.navbar{
+    padding-bottom: 10px;
+    padding-top:20px;
+}

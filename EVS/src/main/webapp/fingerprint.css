@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 9, 2021, 1:18:57 AM
+    Author     : Sana Zehra
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+
+
+/*﻿body {
+    font-family: "Montserrat";
+}*/
+
+/*span {
+    font-style: italic;
+}*/
+
+/*.container-fluid {
+  background-color:#0099cc;
+ }*/
+
+#Container {
+    margin: 10px auto;
+    width: 400px;
+    /*height: 800px;*/
+     text-align: center;
+     background-color: rgba(255,255,255,0.8);
+     font-family: "Montserrat";
+
+}
+
+#imagediv {
+    padding:5px;
+    margin: 5px auto;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 153, 51, 1);
+    display: table;
+}
+
+#imagediv img {
+    width: 100%;
+    height: 250px;
+  
+}
+
+#imagediv div{
+    text-align: center;
+    vertical-align: middle;
+    height: 250px;
+    background: #d3d3d3;
+    display: table-cell;
+  
+}
+
+
+#image {
+    width: 100%;
+}
+
+/*#imageGallery {
+    padding:0px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#imageGallery img{
+    float: left;
+    width:20%;
+    height: 100%
+}*/
+
+/*#deviceInfo {
+    padding:5px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#dynamicInfoDivs{
+    position: relative;
+    left: 30%;
+}*/
+
+h4{
+    
+    margin: 10px auto;
+}
+#Scores {
+    margin:0 auto;
+    width: 300px;
+    text-align:center;
+    border: 2px solid black; 
+}
+
+#status {
+    min-height: 22px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: red;
+}
+
+#contentButtons{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+#clearButton, #start , #stop, #refresh{
+    padding: 7px 25px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 18px;
+    background-color: rgba(0, 153, 51, 0.9);
+    cursor: pointer;
+    color: white;
+    opacity: 0.9;
+    border-radius: 3px;
+
+}
+#readerDivButtons {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}

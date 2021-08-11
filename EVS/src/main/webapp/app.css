@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body{
+    overflow: hidden;
+}
+
+#Container {
+    background-color: rgba(255,255,255,0.6);    
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+#readersDropDown, #cnic{
+    margin:0px 10px;
+    height: 35px;
+
+}
+
+
+
+#imagediv {
+    padding:5px;
+    margin: 5px auto;
+    width:400px;
+    height: 400px;
+    overflow: hidden;
+    border: 3px solid black;
+    display: table;
+}
+
+#imagediv img {
+    width: 100%;
+    height: 400px;
+
+}
+
+#imagediv div{
+    text-align: center;
+    vertical-align: middle;
+    height: 400px;
+    background: #d3d3d3;
+    display: table-cell;
+
+}
+
+
+#image {
+    width: 100%;
+}
+
+h4{
+    margin: 15px auto;
+    padding-top: 10px;
+    font-weight: bold;
+}
+#Scores {
+    margin:0 auto;
+    width: 300px;
+    text-align:center;
+    border: 2px solid black; 
+}
+
+#status {
+    min-height: 22px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: red;
+}
+
+#contentButtons{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+#refresh{
+    padding: 8px 25px;
+    border: none;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0, 153, 51, 1);
+    cursor: pointer;
+    color: white;
+    opacity: 0.9;
+    border-radius: 3px;
+    margin-right: 5px;
+
+}
+
+#clearButton, #start , #stop, #submit{
+    padding: 8px 25px;
+    margin-bottom: 10px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 18px;
+    background-color: rgba(0, 153, 51, 0.9);
+    cursor: pointer;
+    color: white;
+    opacity: 0.9;
+    border-radius: 3px;
+    width : 400px;
+    font-weight: bold;
+
+}
+#readerDivButtons {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}

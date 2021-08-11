@@ -1,0 +1,48 @@
+/* 
+    Created on : Jun 3, 2021, 1:26:34 AM
+    Author     : Binary Beats
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.banner{
+    width:100px;
+    height: 100vh;   
+}
+.navbar{
+    font-family: "Montserrat";
+    float:right;
+    font-size: 20px;
+    padding-top: 17px;
+    padding-bottom: 0px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;    
+}
+
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: rgb(0, 153, 51);
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+
+}
+
+.navbar ul li:hover::after{    
+    width: 100%;
+      
+}

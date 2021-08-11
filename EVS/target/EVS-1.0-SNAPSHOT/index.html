@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+
+        <!--css-->
+        <!--background-->
+        <link rel="stylesheet" href="bg.css" >
+        <!--navbar-->
+        <link rel="stylesheet" href="navbar.css" >
+        <!--logo-->
+        <link rel="icon" href="images/logo.png" />
+        <style>
+
+            body{
+                background-attachment: fixed;
+                overflow: hidden;
+
+            }
+
+            .line {
+                position:absolute;
+                width:99%;
+                top: 60%;
+
+            }
+            hr {
+                border: 8px solid rgb(0, 153, 51);
+                border-radius: 3px;
+                opacity: 0.8;
+            }
+
+            h1 {
+                font-family: "Montserrat";
+                font-size: 70px;
+                font-weight:bolder;
+                color: white;
+                position: absolute;
+                top: 40%;
+                left: 20%;
+                transform: translateY(-50%);
+            }
+            p{
+
+                font-family: "Montserrat";
+                font-size: 33px;
+
+                color: white;
+                position: absolute;
+                top: 49%;
+                left: 35%;
+
+            }
+
+            b{
+                font-family: "Montserrat";
+                font-size: 20px;
+                position: absolute;
+                top: 70%;
+                left: 43%;
+                transform: translateY(-50%);
+                width: 150px;
+                padding: 15px 0;
+                text-align: center;
+                margin: 20px 10px;
+                border-radius: 15px;
+                font-weight: bold;
+                border: 2px solid white;
+                background: transparent;
+                color: white;
+                cursor:pointer;
+                overflow: hidden;
+
+
+            }
+            span{
+
+                left: 0;
+                top: 0;
+
+                background: rgb(0, 153, 51);
+                height: 100%;
+                width: 0;
+                border-radius: 15px;
+                position: absolute;
+                z-index: -1;
+                transition: 0.5s;
+                opacity: 0.8;
+            }
+
+            b:hover span{
+                width: 100%;
+            }
+            b:hover{
+                border: none;
+
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <!--navbar-->
+        <div class="navbar">
+            <ul>                            
+                <li><a href="ScheduleServlet?schedule=normal">Schedule</a></li>   
+                <li><a href="Results.jsp">Results</a></li>
+                <li><a href="AboutUs.jsp">About Us</a></li>           
+
+
+            </ul>
+        </div>
+
+        <h1>میرا ووٹ، میری آواز، میرا انتخاب</h1>
+        <p>آزادانہ، منصفانہ، غیرجانبدارانہ</p>
+        <hr class = "line">
+        <a href="home.jsp" ><b><span></span>Home</b></a>
+
+    </body>
+</html>
