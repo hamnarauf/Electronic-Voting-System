@@ -14,7 +14,7 @@
 4. MS Access 2016 
 
 ## Third Party Software
-### Java Third Party Libraries:
+### Java Third Party Libraries
 - UCanAccess 5.0
 - UareU Digital Persona SDK 3.2.0
 - U.are.U Fingerprint Reader Driver (WBF) Version 5.0.0.5
